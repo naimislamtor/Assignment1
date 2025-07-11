@@ -193,6 +193,58 @@ header{
   width: 100%;
 }
 
+/* User Feedback Section Styles */
+.user-feedback-section{
+    margin: 135px auto;
+    max-width: 1140px;
+}
+.feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.feedback-container{
+    display: flex;
+    justify-content: space-between;
+}
+.user-container{
+    background-color: white;
+    /* min-width: 365px; */
+    margin-right: 20px;
+    height: 245px;
+    border-radius: 14px;
+    padding: 24px 24px;
+}
+.container-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 24px 0px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+
+}
+
+.user-info img{
+    border-radius: 9999px;
+    margin-right: 15px;
+}
+.reviewer-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+}
+.review-date{
+    font-size: 16px;
+    color: #B3B3B3;
+}
+
+
 
 /* .touch-container form{
     display: block;
