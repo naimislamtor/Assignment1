@@ -3,6 +3,8 @@
     padding: 0;
 }
 /* font Section */
+
+/* inner font */
 .open-sans-header-nav {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -84,4 +86,34 @@ header{
 }
 .action-section div button{
     margin-top: 13px;
+}
+
+/* Productive User Section Styles */
+.productive-title{
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.productive-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.productive-user-section{
+    max-width: 1140px;
+    background-color: rgba(77, 71, 255, 0.10);
+    margin: 110px auto;
+    border-radius: 24px;
+}
+.node h3{
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: bold;
+    
+}
+.data-subtitle{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 50px;
 }
