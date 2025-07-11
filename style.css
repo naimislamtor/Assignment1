@@ -117,3 +117,83 @@ header{
     color: rgba(0, 0, 0, 0.5);
     padding-bottom: 50px;
 }
+
+/* lets' touch section styles */
+.touch-title{
+    font-weight: bold;
+    font-size: 97px;
+    color: #000000;
+   
+
+}
+.touch-section{
+    gap: 50px;
+}
+/* .touch-container{
+    display: flex;
+    max-width: 1140px;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    background-color: #00000010;
+}
+.touch-container input[type="text"], input[type="email"], textarea{
+    height: 70px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    padding: 20px 32px;
+    margin-bottom: 25px;
+
+    border: none;
+
+}
+.send{
+    width: 100%;
+} */
+.touch-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: auto;
+  gap: 50px;
+  padding: 50px 20px;
+}
+.touch-title {
+  font-size: 97px;
+  font-weight: bold;
+  color: #000;
+}
+.touch-container form {
+  width: 100%;
+  max-width: 500px;
+  flex-grow: 1;
+}
+.touch-container input[type="text"],
+.touch-container input[type="email"],
+.touch-container textarea {
+  width: 100%;
+  box-sizing: border-box; 
+  border-radius: 10px;
+  height: 70px;
+  padding: 20px 32px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  border: none;
+  background-color: white;
+}
+
+.touch-container textarea {
+  
+  height: 135px;
+}
+
+.send {
+  width: 100%;
+}
+
+
+/* .touch-container form{
+    display: block;
+} */
