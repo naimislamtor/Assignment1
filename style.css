@@ -11,7 +11,7 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+/* Releway font */
 .open-sans-header-title {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -62,4 +62,26 @@ header{
     font-size: 65px;
     font-weight: bold;
     color: #252432;
+}
+.action-section{
+    margin: 115px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.action-sub-title{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.50);
+}
+
+.action-section img{
+    border-radius: 48px;
+}
+.action-section div button{
+    margin-top: 13px;
 }
