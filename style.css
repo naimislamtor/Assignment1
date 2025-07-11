@@ -58,6 +58,7 @@
 }
 header{
     background-image: url(Assets/Hero-bg.png);
+    background-position: 100%;
 
 }
 .banner-section{
@@ -136,28 +137,7 @@ header{
 .touch-section{
     gap: 50px;
 }
-/* .touch-container{
-    display: flex;
-    max-width: 1140px;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-    background-color: #00000010;
-}
-.touch-container input[type="text"], input[type="email"], textarea{
-    height: 70px;
-    border-radius: 10px;
-    width: 100%;
-    background-color: white;
-    padding: 20px 32px;
-    margin-bottom: 25px;
 
-    border: none;
-
-}
-.send{
-    width: 100%;
-} */
 .touch-container {
   display: flex;
   align-items: center;
@@ -304,3 +284,5 @@ footer li a{
     color: rgba(0, 0, 0, 0.5);
     margin: 20px auto;
 }
+
+/* All complete */
