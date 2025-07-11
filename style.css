@@ -43,11 +43,18 @@
     font-size: 16px;
     padding: 12px 36px;
     font-weight: bold;
-    background-color: #4E47FF;
+    background-color: #433ee9;
     border-style: none;
     border-radius: 5px;
     cursor: pointer;
     color: #ffffff;
+    box-shadow: 4px 5px 6px rgb(139, 114, 250);
+}
+.btn-primary:hover{
+    background-color: #04006d;
+    transition: 0.4s;
+    font-size: 16.5px;
+
 }
 header{
     background-image: url(Assets/Hero-bg.png);
@@ -270,5 +277,30 @@ footer li a{
 .footer-description{
     font-size: 16px;
     color: #8987A1;
+    margin: 20px auto;
+}
+
+/* Extra Section */
+
+.join-section{
+    max-width: 1000px;
+    margin: 135px auto;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 70px ;
+}
+
+.join-section img{
+    border-radius: 48px;
+    margin-top: 20px;
+}
+.joining-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.joining-description{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
     margin: 20px auto;
 }
